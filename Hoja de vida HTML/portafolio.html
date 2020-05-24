@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+    <h1 class="title">Portafolio</h1>
+    <div class="contenedor-galeria">
+        <img src="imgportafolio/1.jpg" alt="" class="galeria__img">
+        <img src="imgportafolio/2.jpg" alt="" class="galeria__img">
+        <img src="imgportafolio/3.jpg" alt="" class="galeria__img">
+        <img src="imgportafolio/4.jpg" alt="" class="galeria__img">
+        <img src="imgportafolio/5.jpg" alt="" class="galeria__img">
+        <img src="imgportafolio/6.jpg" alt="" class="galeria__img">
+        <img src="imgportafolio/7.jpg" alt="" class="galeria__img">
+        <img src="imgportafolio/8.jpg" alt="" class="galeria__img">
+    </div>
+    <br>
+    <br>
+        <form class="form">
+            <h2>CONTACTO</h2>
+            <label for="">Nombre:</label>
+            <input type="text" id="id1" name="nombre" required pattern="[A-Za-z]+">
+            <br>
+            <label  for="">Interesado en cual servicio?</label> <br>
+            <select id="id2">
+                <optgroup>
+                    <option value="1">Asistencia</option>
+                    <option value="2">Accesoria</option>
+                </optgroup>
+            </select> <br>
+            <label for="">Correo:</label>
+            <input id="id3" type="text" name="correo" required> <br>
+            <label for="">Mensaje:</label> <br>
+            <textarea name="mensaje" id="" cols="50" rows="10"></textarea> <br>
+            <input id="button" type="submit" name="boton" value="Enviar">
+            <a href="index.html">Regresar</a>
+        </form>
+</body>
+</html>
